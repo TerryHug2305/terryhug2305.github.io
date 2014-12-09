@@ -6,8 +6,11 @@ title: swift中如何得到class
 因为RestKit中需要传入class参数，可OC中NSObject的class在swift是没有的，那么去哪了呢？原来swift文档中有：
 
 ```  swift
+
 SomeClass.self
+
 SomeInstance.dynamicType
+
 ```
 
 * .self相当于原来的
