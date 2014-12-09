@@ -12,9 +12,9 @@ SomeInstance.dynamicType
 
 {% endhighlight %}
 
-* .self相当于原来的
-* .class.dynamicType只有在运行时有效
+* .self相当于原来的.class
+* .dynamicType只有在运行时有效，和.self相比，应该会在运行时显示在继承体系中的不同类型
 
-和.self相比，应该是在运行时显示在继承体系中的不同类型：一个是实际类型，一个是“当时”的类型？
+一个是实际类型，一个是“当时”的类型？
 
 有时间再测试了...
